@@ -1,0 +1,76 @@
+
+/* Colors and fonts */
+body{
+	background: white;
+	color: black;
+	font-size: 20 px;
+	font-family: Roboto Slab;
+	line-height: 1.2;
+}
+h1{
+	color: red;
+    font-size: 40 px;
+    font-weight: bolder;
+    letter-spacing: 1.2;
+}
+
+h2{
+	font-family: Lora;
+	color: black;
+	font-size: 30 px;
+	font-weight: bolder;
+	letter-spacing: 1.2;
+}
+
+a{
+	color:blue;
+	text-decoration: none;
+}
+
+a:hover{
+	color: orange;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 1000px
+	margin: 0 auto;
+}
+
+.card-white {
+	width: 500px;
+	margin: 20px auto;
+	border:solid;
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 20px 20px 20px rgba(0,0,0,0.1);
+	padding: 20px auto;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+}
+
+.list-inside{
+	list-style-position: inside;
+}
+
+.btn-blue{
+	background-color: blue;
+	color: white;
+	padding: 0px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: black;
+	color:white;
+}
